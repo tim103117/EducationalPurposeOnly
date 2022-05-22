@@ -1,10 +1,10 @@
 export const getGlobalData = () => {
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
-    : 'YMSC813';
+    : 'YMSC Educational Resources';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Next.js Blog Theme';
+    : 'May, 2022';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All Rights Reserved.';
