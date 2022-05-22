@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Next.js Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : '版權所有.';
+    : 'All Rights Reserved.';
 
   return {
     name,
