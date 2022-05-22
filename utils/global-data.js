@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'YMSC Educational Resources';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'May, 2022';
+    : 'Archive';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All Rights Reserved.';
